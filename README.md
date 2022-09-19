@@ -5,7 +5,7 @@ This fork has a built in level randomizer that can intelligently replace objects
 
 View the official Spotlight repo at https://github.com/jupahe64/Spotlight
 
-The randomizer is intelligent, so it will not usually randomize objects that are necessary to complete the level (such as platforms). It also avoids choosing certain objects that are likely to cause crashing in the game, so crashing is very common (but it does happen).
+The randomizer is intelligent, so it will not usually randomize objects that are necessary to complete the level (such as platforms). It also avoids choosing certain objects that are likely to cause crashing in the game, so crashing is very uncommon (but it does happen).
 
 ## Using the Randomizer
 
