@@ -1,0 +1,1 @@
+{"Classes":["Donketsu"],"Models":[""],"GpuPower":14,"Safety":{"Source":40,"Destination":40},"Difficulty":65,"Properties":[{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true","false"]},{"Name":"WetType","Type":"Int32","Values":["2","0"]}]}

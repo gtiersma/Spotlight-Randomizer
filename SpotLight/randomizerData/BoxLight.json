@@ -1,0 +1,1 @@
+{"Classes":["BoxLight"],"Models":[""],"GpuPower":7,"Safety":{"Source":20,"Destination":90},"Difficulty":40,"Properties":[{"Name":"IsEffectOnOff","Type":"Boolean","Values":["true","false"]},{"Name":"IsForceSpecularOff","Type":"Boolean","Values":["true","false"]}]}

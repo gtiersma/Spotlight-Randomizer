@@ -1,0 +1,1 @@
+{"Classes":["KinopioNpc"],"Models":[""],"GpuPower":74,"Safety":{"Source":80,"Destination":90},"Difficulty":50,"Properties":[{"Name":"KinopioColor","Type":"Int32","Values":["2","3","1","0"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

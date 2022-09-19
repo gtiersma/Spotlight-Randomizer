@@ -1,0 +1,1 @@
+{"Classes":["BlockBrickBig"],"Models":[""],"GpuPower":4,"Safety":{"Source":60,"Destination":80},"Difficulty":50,"Properties":[{"Name":"IsConnectToCollision","Type":"Boolean","Values":["false"]}]}

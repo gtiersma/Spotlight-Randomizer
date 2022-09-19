@@ -1,0 +1,1 @@
+{"Classes":["EnemyGenerator"],"Models":[""],"GpuPower":56,"Safety":{"Source":10,"Destination":90},"Difficulty":80,"Properties":[{"Name":"NumMax","Type":"Int32","Values":["1","2"]}]}

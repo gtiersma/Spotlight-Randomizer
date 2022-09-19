@@ -1,0 +1,1 @@
+{"Classes":["Kuribo"],"Models":[""],"GpuPower":41,"Safety":{"Source":100,"Destination":90},"Difficulty":60,"Properties":[{"Name":"IsChangeBoxKuribo","Type":"Boolean","Values":["false","true"]},{"Name":"IsEnableCliffCheck","Type":"Boolean","Values":["true","false"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true","false"]}]}

@@ -1,0 +1,1 @@
+{"Classes":["SignBoard"],"Models":["SignBoardNormalRight","SignBoardNormalRightUp"],"GpuPower":20,"Safety":{"Source":100,"Destination":90},"Difficulty":50,"Properties":[{"Name":"IsConnectToCollision","Type":"Boolean","Values":["true","false"]},{"Name":"IsSnowCover","Type":"Boolean","Values":["false"]},{"Name":"WetType","Type":"Int32","Values":["0","2"]}]}

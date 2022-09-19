@@ -1,0 +1,1 @@
+{"Classes":["ChikuwaBlock"],"Models":["ChikuwaBlock2x4M"],"GpuPower":60,"Safety":{"Source":60,"Destination":60},"Difficulty":50,"Properties":[{"Name":"WetType","Type":"Int32","Values":["0","2"]}]}

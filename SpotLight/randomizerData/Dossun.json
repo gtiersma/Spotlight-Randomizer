@@ -1,0 +1,1 @@
+{"Classes":["Dossun"],"Models":["Dossun","DossunLong"],"GpuPower":50,"Safety":{"Source":20,"Destination":20},"Difficulty":75,"Properties":[{"Name":"IsAlwaysMove","Type":"Boolean","Values":["true","false"]},{"Name":"ShadowMaskSetting","Type":"Int32","Values":["0","1"]}]}

@@ -1,0 +1,1 @@
+{"Classes":["Teren"],"Models":[""],"GpuPower":22,"Safety":{"Source":90,"Destination":70},"Difficulty":60,"Properties":[{"Name":"IsInvalidSilhouette","Type":"Boolean","Values":["false","true"]},{"Name":"ShadowLength","Type":"Int32","Values":["-1","200"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

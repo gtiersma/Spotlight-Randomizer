@@ -1,0 +1,1 @@
+{"Classes":["KaronWing"],"Models":[""],"GpuPower":91,"Safety":{"Source":100,"Destination":90},"Difficulty":75,"Properties":[{"Name":"SearchDistance","Type":"Single","Values":["600","1800","900","1200"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]},{"Name":"WetType","Type":"Int32","Values":["0","2"]}]}

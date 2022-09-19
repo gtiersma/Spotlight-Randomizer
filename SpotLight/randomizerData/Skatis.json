@@ -1,0 +1,1 @@
+{"Classes":["Skatis"],"Models":[""],"GpuPower":60,"Safety":{"Source":60,"Destination":60},"Difficulty":50,"Properties":[{"Name":"IsGenerateShoes","Type":"Boolean","Values":["true","false"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false"]}]}

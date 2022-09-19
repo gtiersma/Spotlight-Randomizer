@@ -1,0 +1,1 @@
+{"Classes":["SuperStar"],"Models":[""],"GpuPower":2,"Safety":{"Source":40,"Destination":95},"Difficulty":25,"Properties":[{"Name":"IsPlacementInRouteDokan","Type":"Boolean","Values":["false","true"]},{"Name":"UsingOccludedEffect","Type":"Boolean","Values":["true"]}]}

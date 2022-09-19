@@ -1,0 +1,1 @@
+{"Classes":["NeedleRoller"],"Models":["NeedleRoller4M","NeedleRoller8M"],"GpuPower":30,"Safety":{"Source":90,"Destination":20},"Difficulty":65,"Properties":[{"Name":"MoveSpeed","Type":"Single","Values":["7"]},{"Name":"ShadowLength","Type":"Single","Values":["-1"]}]}

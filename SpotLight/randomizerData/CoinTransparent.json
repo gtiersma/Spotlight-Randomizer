@@ -1,0 +1,1 @@
+{"Classes":["CoinChameleon"],"Models":[""],"GpuPower":1,"Safety":{"Source":100,"Destination":100},"Difficulty":49,"Properties":[{"Name":"IsConnectToCollision","Type":"Boolean","Values":["false","true"]},{"Name":"IsPlacementInRouteDokan","Type":"Boolean","Values":["false","true"]}]}

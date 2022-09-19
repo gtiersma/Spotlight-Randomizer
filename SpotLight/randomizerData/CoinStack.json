@@ -1,0 +1,1 @@
+{"Classes":["CoinStack"],"Models":[""],"GpuPower":98,"Safety":{"Source":100,"Destination":100},"Difficulty":45,"Properties":[{"Name":"CoinStackNum","Type":"Int32","Values":["1","2","3","4","5","10","9","12","6"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

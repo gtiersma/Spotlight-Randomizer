@@ -1,0 +1,1 @@
+{"Classes":["Swimmer"],"Models":[""],"GpuPower":16,"Safety":{"Source":90,"Destination":90},"Difficulty":65,"Properties":[{"Name":"IsOffCollide","Type":"Boolean","Values":["false"]},{"Name":"IsValidSlowdownArea","Type":"Boolean","Values":["true","false"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true","false"]}]}

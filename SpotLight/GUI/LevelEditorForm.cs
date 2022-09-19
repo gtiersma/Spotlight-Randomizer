@@ -23,6 +23,7 @@ using System.Drawing;
 using SARCExt;
 using BYAML;
 using Syroot.BinaryData;
+using ListChangedEventArgs = GL_EditorFramework.EditorDrawables.ListChangedEventArgs;
 
 namespace Spotlight
 {
@@ -1517,6 +1518,36 @@ Would you like to rebuild the database from your 3DW Files?";
 
             Program.SetRestartForm(new LevelEditorForm(tabs, selected, QuickFavoriteControl.Favorites.ToArray()));
             Close();
+        }
+
+        private void RandomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Load stages
+            string stagelistpath = Program.TryGetPathViaProject("SystemData", "StageList.szs");
+            if (!File.Exists(stagelistpath))
+            {
+                MessageBox.Show(string.Format(LevelSelectMissing, stagelistpath), "404", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                SpotlightToolStripStatusLabel.Text = StatusOpenFailedMessage;
+                return;
+            }
+            SpotlightToolStripStatusLabel.Text = StatusWaitMessage;
+            Refresh();
+
+            RandomizerForm randomizerForm;
+
+            if (StageList.TryOpen(stagelistpath, out var STGLST))
+            {
+                randomizerForm = new RandomizerForm(STGLST);
+                randomizerForm.ShowDialog(this);
+
+                // If the user confirms to randomize some levels
+                if (randomizerForm.doIt == DialogResult.Yes)
+                {
+                    RandomProgressForm progressForm = new(randomizerForm);
+                    progressForm.Randomize(0); // Begin randomization at the first level index
+                    progressForm.ShowDialog(this);
+                }
+            }
         }
     }
 }

@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Spotlight
 {
     public partial class LoadLevelForm : Form
     {
+
+        /**
+         * ...and they call it a progress bar. A PROGRESS BAR!
+         */
+
         public LoadLevelForm(string levelname, string scenario)
         {
             InitializeComponent();
@@ -29,11 +27,21 @@ namespace Spotlight
             else if (Scenario.Equals("GenDatabase"))
                 Text = DatabaseGeneratingText;
         }
+
+        /**
+         * This is no progress bar... This is a random bar
+         */
+
         string LevelName;
         string Scenario;
         //int counter = 0;
         bool reset = false;
         Random rand = new Random();
+
+        /**
+         * ...no ...NOOOOOOOOOO-AHHHH-AHHHH!!!!!!
+         */
+        
         private void LevelTimer_Tick(object sender, EventArgs e)
         {
             if (reset)

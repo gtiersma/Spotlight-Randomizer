@@ -1,0 +1,1 @@
+{"Classes":["FairyNpc"],"Models":[""],"GpuPower":24,"Safety":{"Source":90,"Destination":80},"Difficulty":50,"Properties":[{"Name":"IsDance","Type":"Boolean","Values":["false","true"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true","false"]}]}

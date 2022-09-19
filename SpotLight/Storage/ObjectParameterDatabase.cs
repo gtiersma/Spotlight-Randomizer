@@ -218,7 +218,8 @@ namespace Spotlight.Database
                 [nameof(ObjList.ZoneHolderList)] = new List<ObjectInfo>()
 
 #if ODYSSEY
-                [nameof(ObjList.DemoObjList)] = new List<ObjectInfo>(),
+                // Compilation error: Cannot convert string to int
+                /*[nameof(ObjList.DemoObjList)] = new List<ObjectInfo>(),
                 [nameof(ObjList.NatureList)] = new List<ObjectInfo>(),
                 [nameof(ObjList.PlayerStartInfoList)] = new List<ObjectInfo>(),
                 [nameof(ObjList.CapMessageList)] = new List<ObjectInfo>(),
@@ -226,7 +227,7 @@ namespace Spotlight.Database
                 [nameof(ObjList.SceneWatchObjList)] = new List<ObjectInfo>(),
                 [nameof(ObjList.ScenarioStartCameraList)] = new List<ObjectInfo>(),
                 [nameof(ObjList.PlayerAffectObjList)] = new List<ObjectInfo>(),
-                [nameof(ObjList.RaceList)] = new List<ObjectInfo>(),
+                [nameof(ObjList.RaceList)] = new List<ObjectInfo>(),*/
 #endif
             };
             Dictionary<string, List<ObjectInfo>> DESIGNinfosByListName = new Dictionary<string, List<ObjectInfo>>()

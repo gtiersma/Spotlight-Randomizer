@@ -1,0 +1,1 @@
+{"Classes":["Kuribon"],"Models":[""],"GpuPower":20,"Safety":{"Source":100,"Destination":60},"Difficulty":65,"Properties":[{"Name":"IsGateKeeper","Type":"Boolean","Values":["true","false"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true"]}]}

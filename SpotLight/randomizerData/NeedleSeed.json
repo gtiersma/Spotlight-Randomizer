@@ -1,0 +1,1 @@
+{"Classes":["NeedleSeed"],"Models":[""],"GpuPower":10,"Safety":{"Source":100,"Destination":75},"Difficulty":70,"Properties":[{"Name":"ItemType","Type":"String","Values":["\u0022NoItem\u0022","\u0022KinokoOneUp\u0022"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

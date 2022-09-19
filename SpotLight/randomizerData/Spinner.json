@@ -1,0 +1,1 @@
+{"Classes":["Spinner"],"Models":[""],"GpuPower":16,"Safety":{"Source":70,"Destination":90},"Difficulty":60,"Properties":[{"Name":"IsAppearFlying","Type":"Boolean","Values":["true","false"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false"]}]}

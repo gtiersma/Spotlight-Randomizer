@@ -8,9 +8,6 @@ using Syroot.BinaryData;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using SZS;
 using static BYAML.ByamlIterator;
@@ -170,7 +167,11 @@ namespace Spotlight.Level
                     loadedZones.Remove(Path.Combine(Directory, LevelFileName));
                 directory = value;
                 if (LevelFileName != null)
-                    loadedZones.Add(Path.Combine(Directory, LevelFileName), this);
+                {
+                    string path = Path.Combine(Directory, LevelFileName);
+                    if (!loadedZones.ContainsKey(path)) // Protection against a null exception that was occuring with the randomizer
+                        loadedZones.Add(path, this);
+                }
             }
         }
 

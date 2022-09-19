@@ -1,0 +1,1 @@
+{"Classes":["Gorobon"],"Models":[""],"GpuPower":88,"Safety":{"Source":80,"Destination":70},"Difficulty":75,"Properties":[{"Name":"IsEnableAppearSign","Type":"Boolean","Values":["true"]},{"Name":"IsRecover","Type":"Boolean","Values":["true","false"]},{"Name":"RebirthTime","Type":"Int32","Values":["200"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

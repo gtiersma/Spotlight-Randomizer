@@ -1,0 +1,1 @@
+{"Classes":["Bush"],"Models":[""],"GpuPower":4,"Safety":{"Source":100,"Destination":100},"Difficulty":50,"Properties":[{"Name":"Color","Type":"Int32","Values":["0","2","1"]},{"Name":"ItemType","Type":"String","Values":["\u0022None\u0022","\u0022Coin\u0022"]}]}

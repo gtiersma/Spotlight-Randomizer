@@ -1,0 +1,1 @@
+{"Classes":["MeraWanwan"],"Models":[""],"GpuPower":70,"Safety":{"Source":80,"Destination":90},"Difficulty":70,"Properties":[{"Name":"AppearRange","Type":"Single","Values":["2500","2600","1500"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true"]}]}

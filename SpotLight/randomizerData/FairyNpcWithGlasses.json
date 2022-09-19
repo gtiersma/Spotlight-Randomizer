@@ -1,0 +1,1 @@
+{"Classes":["FairyNpcWithGlasses"],"Models":[""],"GpuPower":24,"Safety":{"Source":90,"Destination":80},"Difficulty":50,"Properties":[{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

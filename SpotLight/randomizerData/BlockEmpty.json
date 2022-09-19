@@ -1,0 +1,1 @@
+{"Classes":["BlockEmpty"],"Models":[""],"GpuPower":3,"Safety":{"Source":40,"Destination":40},"Difficulty":50,"Properties":[{"Name":"ShadowLength","Type":"Single","Values":["-1"]},{"Name":"ShadowMaskSetting","Type":"Int32","Values":["0","2","1","3"]}]}

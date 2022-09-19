@@ -1,0 +1,1 @@
+{"Classes":["GustWind"],"Models":["StreamShort4x4M","Stream4x4M"],"GpuPower":60,"Safety":{"Source":60,"Destination":60},"Difficulty":50,"Properties":[{"Name":"BlowTime","Type":"Int32","Values":["120"]},{"Name":"IsNeverBlow","Type":"Boolean","Values":["false","true"]},{"Name":"WaitTime","Type":"Int32","Values":["120"]}]}

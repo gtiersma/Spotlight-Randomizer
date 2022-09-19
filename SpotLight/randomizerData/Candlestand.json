@@ -1,0 +1,1 @@
+{"Classes":["Candlestand"],"Models":["Candlestand","CandlestandNoStand"],"GpuPower":25,"Safety":{"Source":90,"Destination":90},"Difficulty":50,"Properties":[{"Name":"IsEnableLightPrePass","Type":"Boolean","Values":["true","false"]},{"Name":"IsLightFire","Type":"Boolean","Values":["true","false"]},{"Name":"WetType","Type":"Int32","Values":["0","2"]}]}

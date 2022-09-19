@@ -1,0 +1,1 @@
+{"Classes":["NeedleRollerGenerator"],"Models":["NeedleRoller4M"],"GpuPower":40,"Safety":{"Source":90,"Destination":10},"Difficulty":75,"Properties":[{"Name":"GenerateDelay","Type":"Int32","Values":["0"]},{"Name":"GenerateInterval","Type":"Int32","Values":["180"]},{"Name":"MoveAccel","Type":"Single","Values":["0.5"]}]}

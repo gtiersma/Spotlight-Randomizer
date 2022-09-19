@@ -1,0 +1,1 @@
+{"Classes":["EffectObj"],"Models":[""],"GpuPower":70,"Safety":{"Source":100,"Destination":100},"Difficulty":50,"Properties":[{"Name":"IsConnectCollision","Type":"Boolean","Values":["false","true"]}]}

@@ -1,0 +1,1 @@
+{"Classes":["BombBoundGenerator"],"Models":[""],"GpuPower":60,"Safety":{"Source":5,"Destination":80},"Difficulty":75,"Properties":[{"Name":"IsImmediateStarting","Type":"Boolean","Values":["true","false"]},{"Name":"ShootInterval","Type":"Int32","Values":["360","0"]},{"Name":"ShootSpeed","Type":"Single","Values":["10","12"]}]}

@@ -1,0 +1,1 @@
+{"Classes":["PackunFlower"],"Models":[""],"GpuPower":71,"Safety":{"Source":100,"Destination":40},"Difficulty":75,"Properties":[{"Name":"IsBlowBackDir","Type":"Boolean","Values":["false","true"]},{"Name":"IsRemainTrace","Type":"Boolean","Values":["false","true"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["true","false"]}]}

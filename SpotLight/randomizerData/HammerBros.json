@@ -1,0 +1,1 @@
+{"Classes":["HammerBros"],"Models":[""],"GpuPower":38,"Safety":{"Source":100,"Destination":90},"Difficulty":80,"Properties":[{"Name":"ScaffoldType","Type":"Int32","Values":["-1"]},{"Name":"StackNum","Type":"Int32","Values":["4"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

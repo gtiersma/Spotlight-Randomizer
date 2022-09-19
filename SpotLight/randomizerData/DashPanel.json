@@ -1,0 +1,1 @@
+{"Classes":["DashPanel"],"Models":[""],"GpuPower":9,"Safety":{"Source":20,"Destination":80},"Difficulty":50,"Properties":[{"Name":"DashFrame","Type":"Int32","Values":["180","270","200"]},{"Name":"NoConnectCollision","Type":"Boolean","Values":["false","true"]},{"Name":"IsShowShadowMask","Type":"Boolean","Values":["true","false"]}]}

@@ -1,0 +1,1 @@
+{"Classes":["KuriboMini"],"Models":[""],"GpuPower":14,"Safety":{"Source":100,"Destination":90},"Difficulty":55,"Properties":[{"Name":"IsEnableCliffCheck","Type":"Boolean","Values":["true"]},{"Name":"UsingDepthShadow","Type":"Boolean","Values":["false","true"]}]}

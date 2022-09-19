@@ -1,0 +1,1 @@
+{"Classes":["TeresaConveyorBench"],"Models":[""],"GpuPower":30,"Safety":{"Source":50,"Destination":70},"Difficulty":60,"Properties":[{"Name":"MoveType","Type":"Int32","Values":["2"]},{"Name":"Speed","Type":"Single","Values":["3","6","10","18"]},{"Name":"SpeedByTime","Type":"Int32","Values":["-1"]},{"Name":"WaitTime","Type":"Int32","Values":["0","120","90"]}]}

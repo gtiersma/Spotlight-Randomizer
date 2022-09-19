@@ -1,0 +1,1 @@
+{"Classes":["FishColony"],"Models":["FishA","FishB"],"GpuPower":60,"Safety":{"Source":100,"Destination":100},"Difficulty":50,"Properties":[{"Name":"AvoidDist","Type":"Single","Values":["60"]},{"Name":"FishNum","Type":"Int32","Values":["1","5","2"]}]}

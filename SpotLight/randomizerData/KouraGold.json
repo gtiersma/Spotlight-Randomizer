@@ -1,0 +1,1 @@
+{"Classes":["KouraGold"],"Models":[""],"GpuPower":11,"Safety":{"Source":100,"Destination":100},"Difficulty":35,"Properties":[{"Name":"CoinNum","Type":"Int32","Values":["30","100"]},{"Name":"IsSlide","Type":"Boolean","Values":["false"]}]}

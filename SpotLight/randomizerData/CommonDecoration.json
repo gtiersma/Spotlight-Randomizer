@@ -1,0 +1,1 @@
+{"Classes":["FixMapParts"],"Models":["CommonDecorationW2A","CommonDecorationW3A","CommonDecorationW4A","CommonDecorationW8FerrisWheel","CommonDecorationW8A","CommonDecorationW8TowerC"],"GpuPower":60,"Safety":{"Source":60,"Destination":80},"Difficulty":50,"Properties":[{"Name":"CubeMapUnitName","Type":"String","Values":["\u0022\u0022"]}]}

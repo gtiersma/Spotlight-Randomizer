@@ -1,0 +1,1 @@
+{"Classes":["RingBeamer"],"Models":[""],"GpuPower":20,"Safety":{"Source":90,"Destination":80},"Difficulty":75,"Properties":[{"Name":"BeamInterval","Type":"Int32","Values":["90","45","30"]},{"Name":"BeamLife","Type":"Int32","Values":["200","150","300"]},{"Name":"BeamSpeed","Type":"Single","Values":["10"]}]}
