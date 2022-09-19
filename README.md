@@ -1,30 +1,106 @@
-# Spotlight - Super Mario 3D World Editor
+# Spotlight with a Randomizer for Level Objects
 
-Spotlight is the latest (and best) Editor for Super Mario 3D World on the Nintendo Wii U.<br/>
-It has a boatload of features inside allowing you to make your very own levels, toad houses, mystery boxes, and more!
+A fork of Spotlight - the level editor for Super Mario 3D World.<br/>
+This fork has a built in level randomizer that can intelligently replace objects at random!
 
-## System Requirements
+View the official Spotlight repo at https://github.com/jupahe64/Spotlight
 
-- OpenGL 3.0+
-- Windows 8+
+The randomizer is intelligent, so it will not usually randomize objects that are necessary to complete the level (such as platforms). It also avoids choosing certain objects that are likely to cause crashing in the game, so crashing is very common (but it does happen).
 
-## Assistance and How to Use
+## Using the Randomizer
 
-A full guide to Spotlight can be found on the [Spotlight Wiki](https://github.com/jupahe64/Spotlight/wiki)
+- The Randomizer can be found in the File menu
 
-## Compiling (Source Code)
+- Change the settings to your liking
 
-To compile this you need to locate it in a folder also containing the <a href="https://github.com/jupahe64/GL_EditorFramework">GL_EditorFramework</a><br/>
-The folder layout should look like this:<br/>
-<br/>
-![image](https://user-images.githubusercontent.com/44330283/76013595-05647e00-5ecd-11ea-8c04-0752df56e593.png)
-<br/>
-These folders contain their respective projects.
-(make sure to get rid of the -master in the end when downloading both)<br/>
-After that it should be ready to go.
+- Hit the Randomize button and choose the folder you wish to save the randomized level files
 
-# Join Us
-If you need help with the program or editing the game, you can Join the Cat Chat (<a href="https://discord.gg/9JGKSze"><img src="https://img.shields.io/discord/308323056592486420.svg?color=7289da&logo=discord&logoColor=white" alt="The Cat Chat" /></a>). You can communicate with other SM3DW hackers here as well as show your own hacking accomplishments.<br/>(*Dislaimer: We cannot help you get the 3D World files*)
+- Wait as Spotlight randomizes them
+
+## Settings
+
+### More Beatable/More Random
+
+MORE BEATABLE increases the odds that the level will still be completable at the expense of limiting randomness.
+
+MORE RANDOM will ignore how completable the level may be to keep things random.
+
+Pretty much setting this lower will lower the chances of large objects being chosen by the randomizer (smaller chance of them blocking the path in a level).
+
+### Less Demanding/More Random
+
+LESS DEMANDING will cause the randomizer to choose more objects that will be less demanding on CPU/RAM/GPU,
+but levels will be less random.
+
+MORE RANDOM will make the level more random,
+but won't pay attention to how resource-demanding the level may be.
+
+RECOMMENDATION: If using a real wii u, lower this if you need better performance/less crashing. It will MAYBE help.
+
+On Cemu, this won't make much of a difference, so keep it all the way at More Random.
+
+### Easy/Hard
+
+Attempts to adjust the difficulty of the level.
+
+Put the slider in the middle to try to keep the difficulty the same as before.
+
+To be honest, this doesn't do a very good job with changing the difficulty though.
+
+### Randomize Size
+
+Randomizes the size of objects based upon the min and max set.
+
+Less than 1 is smaller.
+1 leaves the size the same.
+More than 1 is bigger.
+
+Maintain Ratio will keep the width/height/depth scaling the same. Uncheck this if you want the size change to look weird!
+
+Not all objects have their size changed.
+
+This can make many objects buggy. Part of the reason is that the hitbox isn't allways resized to fit the new size. Sometimes the hitbox does resize though, and this can often block levels making them unbeatable if the size is too large.
+
+### Randomize Rotation
+
+Which directions to randomly rotate objects (if random rotations is desired)
+
+Not all objects get rotated.
+
+This can also make some objects buggy.
+
+### Consistent
+
+If checked, each level will randomize objects by type
+(for example, all goombas will be changed to the same type of object).
+
+If unchecked, each object will be randomized to a different object
+(for example, each goomba will be changed to a different object).
+Unchecking this will also take a little longer to randomize.
+
+It's recommended to keep this checked. Unchecking greatly increasing the likelihood of crashing.
+
+### Use Range for Numbers
+
+If checked, each object's properties that use numbers will use a random number in a similar range.
+This may make object behavior sometimes a little more "interesting",
+but is slightly more likely to break the level.
+
+If unchecked, each object's properties that use numbers will only use an exact number that has been used with that specific property somewhere in the game.
+
+It's recommended to keep this unchecked. Checking this greatly increases the likelihood of crashing.
+
+### Levels and Objects
+
+Choose exactly which levels and objects to randomize.
+
+# Known Problems
+
+- Going into the warp box after a world boss can sometimes kill the character. The source of the issue is unknown at the moment.
+
+- Not every level has been tested. A few may always be unbeatable.
+
+- Many objects are not randomized. This includes objects that are linked to other objects (such as cat goombas), and objects that almost always cause crashing when randomly chosen to replace another object (such as koopas).
 
 # Credits
 
@@ -36,3 +112,5 @@ If you need help with the program or editing the game, you can Join the Cat Chat
 - KFreon: DXT1 Decompression
 
 - Whitehole (SMG Level editor): Some features and visuals were inspired by Whitehole
+
+- FullmetalHobbit: Created the randomizer
