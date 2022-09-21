@@ -144,22 +144,23 @@ namespace Spotlight.Level
         private bool IsOk(RandoObject sourceObj, RandoObject replacementObj)
         {
             // Values based upon user input
-            int beatableSet = (form.settings.Beatable - 50) / 2;
-            int gpuSet = (form.settings.Demand - 50) / 2;
+            int userSetRisk = form.settings.Beatable - 50;
+            int gpuSet = form.settings.Demand - 50;
             int difficultySet = (form.settings.Difficulty - 50) / 2;
 
-            // Calculate the values in the user input along with the values in the randomization object data
-            int minBeatableSource = replacementObj.Safety.Source + beatableSet - ACCEPTANCE_RANGE;
-            int minBeatableDest = replacementObj.Safety.Destination + beatableSet - ACCEPTANCE_RANGE;
-            int maxPower = replacementObj.GpuPower + gpuSet + ACCEPTANCE_RANGE;
+            // Calculate maximum allowed risk for the source object to block the level
+            int maxRisk = replacementObj.Safety.Source + userSetRisk + ACCEPTANCE_RANGE;
+
+            // Calculate the maximum allowed resource demand for the object
+            int maxPowerAllowed = replacementObj.GpuPower + gpuSet + ACCEPTANCE_RANGE;
+
             int minDifficulty = replacementObj.Difficulty + difficultySet - ACCEPTANCE_RANGE;
             int maxDifficulty = replacementObj.Difficulty + difficultySet + ACCEPTANCE_RANGE;
 
             // Check if all the comparisons of this data are ok
-            return sourceObj.Safety.Source > minBeatableSource &&
-                sourceObj.Safety.Source > minBeatableDest &&
-                sourceObj.Difficulty > minDifficulty && sourceObj.Difficulty < maxDifficulty &&
-                sourceObj.GpuPower < maxPower;
+            return sourceObj.Safety.Destination < maxRisk &&
+                sourceObj.GpuPower < maxPowerAllowed &&
+                sourceObj.Difficulty > minDifficulty && sourceObj.Difficulty < maxDifficulty;
         }
 
         /**
